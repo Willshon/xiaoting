@@ -60,7 +60,7 @@ var GameOverLayer = cc.Layer.extend
         //     try {
         //         _hmt.push(['_trackEvent', 'escape', 'click', 'more', '1']);
         //     } catch(e) {}
-        //     window.open("http://127.0.0.1");
+        //     window.open("http://willshon.github.io/xiaoting");
         // });
         // more.setPosition(-90,-50);
 

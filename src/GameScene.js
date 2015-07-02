@@ -4,15 +4,15 @@
 
 var AD = ["res/ad02.png"];
 
-var ADLink = ["http://127.0.0.1"];
+var ADLink = ["http://willshon.github.io/xiaoting"];
 
 var androidAD = ["res/ad01.png", "res/ad03.png"];
 
-var androidADLink = ["http://127.0.0.1","http://127.0.0.1"];
+var androidADLink = ["http://willshon.github.io/xiaoting","http://willshon.github.io/xiaoting"];
 
 var iosAD = ["res/ad01.png", "res/ad03.png"];
 
-var iosADLink = ["http://127.0.0.1","http://127.0.0.1"];
+var iosADLink = ["http://willshon.github.io/xiaoting","http://willshon.github.io/xiaoting"];
 
 var adPush = function(b) {
 
