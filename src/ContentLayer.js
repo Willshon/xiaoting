@@ -15,7 +15,6 @@ var ContentLayer = cc.Layer.extend
         }
         else if ('mouse' in sys.capabilities )
             this.setMouseEnabled(true);
-
     },
     onEnter:function()
     {
