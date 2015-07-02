@@ -59,7 +59,6 @@
 
 <canvas id="gameCanvas" width="320" height="506" ></canvas>
 
-
 <!--<a href="#" style="position: absolute;left: 50%; top: 50%;background-image:url('res/uploadavatar/click.png')" >选择头像</a>-->
 <!--<input type="file" id="upload" style="opacity: 0;position: absolute;left: 50%; top: 50%;" name="image" />-->
 <script src="cocos2d-html5.js"></script>
@@ -72,7 +71,6 @@
 </script>
     <span style="display:none;">
 
-
 <script type="text/javascript" src="device.js"></script>
 <script type="text/javascript">
 
@@ -80,7 +78,6 @@
     var _hmt = _hmt || [];
     var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
     document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F258fa23a79b44bae7819d5e2a301d54b' type='text/javascript'%3E%3C/script%3E"));
-
 
     //imgUrl:分享出去图片
     //lineLink:分享出去的地址
@@ -96,7 +93,7 @@
         /*var curWwwPath = window.document.location.href;
         var path = curWwwPath.substring(0,curWwwPath.lastIndexOf('/'));*/
         //return (path + "/a.html"+"?r="+curWwwPath+"?act=weixin_link");
-        return ("http://willshon.github.io/xiaoting/games/gqtz");
+        return ("http://willshon.github.io/xiaoting");
     }
 
     var lineLink = getShareUrlPath();
@@ -136,7 +133,6 @@
                 document.location.href = shareCallback;
             });
         });
-
 
         WeixinJSBridge.on('menu:share:weibo', function (argv) {
             WeixinJSBridge.invoke('shareWeibo', {
