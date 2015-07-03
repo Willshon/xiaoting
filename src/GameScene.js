@@ -330,9 +330,9 @@ var GameLayer = cc.Layer.extend
 
         this.isSelected = false;
 
-        adPush();
+        // adPush();
 
-	    //$(".ad_banner").css("display","inline");
+	// $(".ad_banner").css("display","inline");
 
     },
 
